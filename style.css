@@ -1,0 +1,105 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+
+    border: 0.1px solid #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    height: 30px;
+    width: 500px;
+    box-shadow: 1px 1px 2px #888888;
+    border-radius: 40px;
+
+}
+
+.box:hover {
+    border: 3px solid #6e6e6e;
+    border-radius: 40px;
+}
+
+.sb {
+    margin-left: 15px;
+    width: 420px;
+    height:20px;
+    outline: none;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+   
+}
+
+
+.first  { 
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.voice {
+    float: right;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.GL { 
+    position: absolute;
+    top: 40%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+
+}
+
+.buttons {
+    position: absolute;
+    top: 57.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.button {
+    border: none;
+    font-size: 15px;
+    padding: 8px 20px;
+    color: #6e6e6e;
+    border-radius: 5px;
+    
+
+
+}
+
+.button:hover {
+    border: 1px solid #6e6e6e;
+    border-radius: 5px;
+}
+
+.icons {
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    transform: translate(-50%, -50%);
+
+
+}
+
+.btn {
+    border: none; 
+    
+
+}
+
